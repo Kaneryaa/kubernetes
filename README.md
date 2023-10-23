@@ -10,6 +10,7 @@ Studying Kubernetes involves understanding various concepts and components that 
    - Learn about Kubernetes, its history, and why it's important.
 
 3. **Kubernetes Architecture**:
+  -
    - Familiarize yourself with the key components of a Kubernetes cluster, such as the Control Plane and Worker Nodes.
    - ![image](https://github.com/Kaneryaa/kubernetes/assets/89991677/5c585d76-a0f1-4061-aa06-57eef5b9c2f0)
 
