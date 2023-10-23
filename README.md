@@ -12,7 +12,7 @@ Studying Kubernetes involves understanding various concepts and components that 
 3. **Kubernetes Architecture**:
    - Familiarize yourself with the key components of a Kubernetes cluster, such as the Control Plane and Worker Nodes.
    - ![image](https://github.com/Kaneryaa/kubernetes/assets/89991677/5c585d76-a0f1-4061-aa06-57eef5b9c2f0)
-  Control Plane (Master Node):
+ -  **Control Plane** (Master Node):
 API Server:
 
 The API Server is the entry point for all administrative tasks and API interactions with the cluster. It processes requests, validates them, and updates the corresponding objects in the etcd store.
