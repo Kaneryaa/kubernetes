@@ -14,13 +14,16 @@ Studying Kubernetes involves understanding various concepts and components that 
    - ![image](https://github.com/Kaneryaa/kubernetes/assets/89991677/5c585d76-a0f1-4061-aa06-57eef5b9c2f0)
  --  **Control Plane (Master Node):**
 
-     - **API Server:**
+      **API Server:**
 
-The API Server is the entry point for all administrative tasks and API interactions with the cluster. It processes requests, validates them, and updates the corresponding objects in the etcd store.
-etcd:
+    The API Server is the entry point for all administrative tasks and API interactions with the cluster. It 
+    processes requests, validates them, and updates the corresponding objects in the etcd store.
+
+     **etcd:**
 
 etcd is a distributed key-value store used to store the configuration and state of the Kubernetes cluster. It serves as the cluster's source of truth, ensuring that the state of the system is consistent across all nodes.
-Controller Manager:
+
+ **Controller Manager:**
 
 The Controller Manager is responsible for maintaining the desired state of the cluster. It continuously monitors the state of various resources and makes adjustments as needed to ensure that the actual state matches the desired state.
 Scheduler:
