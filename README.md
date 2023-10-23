@@ -12,7 +12,7 @@ Studying Kubernetes involves understanding various concepts and components that 
 3. **Kubernetes Architecture**:
    - Familiarize yourself with the key components of a Kubernetes cluster, such as the Control Plane and Worker Nodes.
    - ![image](https://github.com/Kaneryaa/kubernetes/assets/89991677/5c585d76-a0f1-4061-aa06-57eef5b9c2f0)
-   Control Plane (Master Node):
+  Control Plane (Master Node):
 API Server:
 
 The API Server is the entry point for all administrative tasks and API interactions with the cluster. It processes requests, validates them, and updates the corresponding objects in the etcd store.
@@ -25,10 +25,7 @@ The Controller Manager is responsible for maintaining the desired state of the c
 Scheduler:
 
 The Scheduler is responsible for placing pods onto available nodes. It takes into account factors like resource requirements, node capacity, and affinity/anti-affinity rules to make optimal scheduling decisions.
-Cloud Controller Manager (Optional):
-
-This component interacts with the underlying cloud provider to manage resources like load balancers, storage volumes, and virtual machines. It allows Kubernetes to integrate with specific cloud platforms.
-Worker Nodes:
+2. Node Components (Worker Node):
 Kubelet:
 
 Kubelet is an agent that runs on each worker node and is responsible for ensuring that containers are running in a Pod. It communicates with the API Server and takes care of starting, stopping, and maintaining application containers as specified in the Pod manifest.
@@ -38,8 +35,14 @@ Kube Proxy maintains network rules to allow communication between pods and exter
 Container Runtime:
 
 The container runtime is the software responsible for running containers. Kubernetes is compatible with various container runtimes, including Docker, containerd, and others.
-Pod:
+3. Pod:
 A Pod is the basic scheduling unit in Kubernetes. It can consist of one or more containers that share network and storage resources. Containers within a Pod can communicate with each other using localhost.
+4. Service:
+A Service in Kubernetes is an abstraction that defines a set of Pods and provides a consistent way to access them. It ensures that traffic is directed to the right set of Pods, even if they are rescheduled or scaled.
+5. Deployment:
+A Deployment is a higher-level resource that manages the deployment and scaling of Pods. It allows you to describe an application's life cycle, including which images to use for the app, the number of Pods, and how to update them.
+6. Namespace:
+Namespaces provide a way to divide cluster resources between multiple users (via resource quotas) or to partition resources for different projects or teams.
 
 4. **Installation minikube kubernetes**:
    - 
