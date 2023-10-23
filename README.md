@@ -11,8 +11,14 @@ Studying Kubernetes involves understanding various concepts and components that 
 
 3. **Kubernetes Architecture**:
    - Familiarize yourself with the key components of a Kubernetes cluster, such as the Control Plane and Worker Nodes.
+   - ![image](https://github.com/Kaneryaa/kubernetes/assets/89991677/5c585d76-a0f1-4061-aa06-57eef5b9c2f0)
 
-4. **Kubectl Commands**:
+
+4. **Installation minikube kubernetes**:
+   - 
+
+
+5. **Kubectl Commands**:
    - Learn the basics of using `kubectl`, the command-line tool for interacting with Kubernetes clusters.
 
 5. **Creating Pods**:
