@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  COLOUR: red
+  KEY: value
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: coulour-configmap

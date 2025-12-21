@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nginx-red
+  name: nginx-red
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-red
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: nginx-red
+    spec:
+      containers:
+      - image: spurin/nginx-red
+        name: nginx-red
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
